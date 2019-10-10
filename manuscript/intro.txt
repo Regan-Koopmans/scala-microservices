@@ -1,1 +1,12 @@
 # Introduction
+
+This document serves as a complete guide on how to write a production
+-ready microservice using the Scala language, and supporting libraries.
+
+## Requirements
+
+This guide will assume that you have the following software installed 
+on your computer:
+
+- Scala
+- Intellij IDEA
