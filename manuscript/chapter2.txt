@@ -1,0 +1,8 @@
+# Chapter 2 - Handling a Request
+
+
+```scala
+def handleThings = {
+	"returnCode"
+}
+```
