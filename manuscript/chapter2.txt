@@ -1,5 +1,7 @@
 # Chapter 2 - Handling a Request
 
+Now that we have 
+
 
 ```scala
 def handleThings = {

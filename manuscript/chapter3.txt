@@ -1,0 +1,9 @@
+# Chapter 3 - Connecting to Data
+
+We now have a service that can handle basic HTTP requests, and respond with some placeholder data. . It is very likely that your application will need to talk to some kind of permanent data store.
+
+In this chapter we will connect our microservice to a Postgres database and retrieve data relative to a customer.
+
+## Anorm
+
+Anorm is a library that will allow us to write requests into the database.
