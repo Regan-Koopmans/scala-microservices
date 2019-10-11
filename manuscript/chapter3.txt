@@ -1,9 +1,22 @@
 # Chapter 3 - Connecting to Data
 
-We now have a service that can handle basic HTTP requests, and respond with some placeholder data. . It is very likely that your application will need to talk to some kind of permanent data store.
+We now have a service that can handle basic HTTP requests, and respond with some placeholder data. This in itself . It is very likely that your application will need to talk to some kind of permanent data store in order to perform some meaningful work.
 
 In this chapter we will connect our microservice to a Postgres database and retrieve data relative to a customer.
 
+## Setting up the Database
+
+We will need a database with example data to illustrate the working microservice. I will be using Postgres in this guide, but this could easily be done with another relational database, with the appropriate driver changes.
+
+```sql
+CREATE TABLE Customer (
+
+);
+```
+
+We can then populate this Customer table with data using the following queries:
+
+
 ## Anorm
 
-Anorm is a library that will allow us to write requests into the database.
+Anorm is a library that will allow us to write SQL commands into the database from our Scala code. Anorm is not a ORM (Object Relational Mapper), and these queries will be handwritten. Unless you are performing complex joins
